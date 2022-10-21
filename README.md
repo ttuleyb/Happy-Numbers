@@ -1,6 +1,10 @@
 # Happy-Numbers
 A python program that checks if a number is a happy number or not.
-A number is a happy number if:
+
+## What is a happy number?
+A happy number is a number that is defined by the following process: starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers.
+
+## Simpler explanation
 When the sum of squares of its digits are calculated, the sum eventually becomes 1 without looping.
 
-The programme finds first 8 happy numbers but this can be changed by editing the while loop.
+The script finds first N happy numbers.
